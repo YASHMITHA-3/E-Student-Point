@@ -22,3 +22,7 @@ added along with it.
 to come and collect their copies students can go take their copies at photocopy shop by
 just saying their unique code received in the mail without waiting in a long queue or
 participating in crowds.
+
+How to run the code :
+1.Download the zip file ,extract te zip file and save the files by creataing a folder myproject in htdocs.
+2.Now you can run the code from localhost using http://localhost/myproject/Imperial/ command.
