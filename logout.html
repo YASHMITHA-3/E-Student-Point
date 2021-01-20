@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>logout</title>
+	<style type="text/css">
+  .log
+  {
+   background-color: #a7df1e;
+   color: black;
+   position: absolute; 
+   top:70px; 
+   left: 560px;
+   padding: 10px 15px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  }
+  .log:hover {
+  color: #a7df1e;
+  background-color: black;
+}
+.cancel
+  {
+   background-color: #a7df1e;
+   padding: 10px 15px;
+  font-size: 24px;
+  cursor: pointer;
+   color: black;
+   position: absolute; 
+   top:70px; 
+   left: 700px;
+  }
+  .cancel:hover {
+  color: #a7df1e;
+  background-color: black;
+}
+
+</style>
+</head>
+<body >
+	<h3 style="text-align: center;">Do you really want to logout?</h3>
+	<form action="logout.php" method="POST">
+    <button class="log" >Log out</button> 
+</form>
+    <form action="cancel.php" method="POST">
+    <button class="cancel"  >Cancel</button>
+    </form> 
+</body>
+</html>
+

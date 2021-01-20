@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title>Forgotten page</title>
+  <script type="text/javascript">
+    function matchPassword() {  
+  var pw1 = document.getElementById("pswd1").value;  
+  var pw2 = document.getElementById("pswd2").value;  
+  if(pw1 != pw2)
+  {   
+    alert("Passwords did not match");  
+  } else {  
+    alert("Password match");  
+  }  
+} 
+  </script>
+</head>
+<body>
+	
+          		<p><img src="assets/img/images/Forgot password.gif" width="300" height="300" alt="" style="float: left;">
+          			<h4>Forgot your password? Rest it now!</h4>
+          			<form action="forgot.php" method="post" >
+                            <div class="group"> <label for="email" class="label">Email: </label> <input name="email" type="email" class="input" placeholder="Enter your mail id"> </div><br>
+                           <div class="group"> <label class="label">New password: </label> <input id="pswd1" name="pass" type="password" class="input" data-type="password" placeholder="Enter your new password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required> </div><br>
+                            <div class="group"> <label class="label">Repeat Password: </label> <input id="pswd2" name="rpass" type="password" class="input" data-type="password" placeholder="Repeat your password" onmouseout="matchPassword() " required> </div><br>
+                             <div class="group"> <input type="submit" class="button" value="Submit" style="background-color: #a7df1e; width: 60;height: 30 ;position:relative;left:70"> </div><br>
+                            </form>
+          	</form>
+          </p>
+          </div>
+
+           
+
+</div>
+</div>
+</section>
+
+  
+</body>
+
+</html>
